@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-26T12:11:58Z" name="Default suite" finished-at="2022-11-26T12:12:25Z" duration-ms="26732">
+    <groups>
+    </groups>
+    <test started-at="2022-11-26T12:11:58Z" name="Default test" finished-at="2022-11-26T12:12:25Z" duration-ms="26732">
+      <class name="com.awsiot.springboot.sensorMap.MockPosting">
+        <test-method signature="postData()[pri:0, instance:com.awsiot.springboot.sensorMap.MockPosting@2421cc4]" started-at="2022-11-26T12:11:58Z" name="postData" finished-at="2022-11-26T12:12:25Z" duration-ms="26721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postData -->
+      </class> <!-- com.awsiot.springboot.sensorMap.MockPosting -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
