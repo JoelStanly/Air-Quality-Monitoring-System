@@ -10,5 +10,5 @@ public interface SensorService {
 	List<Sensor> getSensorDataAll();
 	Sensor getSensorDataById(long id);
 	Sensor updateSensorData(Sensor sensor,long id);
-	void deleteSensorData(long sensorid);
+	void deleteSensorData(long id);
 }

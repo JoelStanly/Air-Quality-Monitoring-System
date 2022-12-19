@@ -11,5 +11,3 @@ truncate table sensordata;
 select * from sensor;
 select * from sensordata;
 
-
-select * from sensordata_seq

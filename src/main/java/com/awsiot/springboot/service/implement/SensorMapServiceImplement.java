@@ -36,14 +36,14 @@ public class SensorMapServiceImplement implements SensorMapService{
 
 
 	@Override
-	public SensorMap getSensorMapById(long sensorid) {
-		return sensorMapRepository.findById(sensorid).orElseThrow(()-> new ResourceNotFoundException("sensorMap", "sensorid", sensorid));
+	public SensorMap getSensorMapById(String sensorid) {
+		return sensorMapRepository.findBySensorid(sensorid).orElseThrow(()-> new ResourceNotFoundException("sensorMap", "sensorid", sensorid));
 	}
 
 
 	@Override
-	public SensorMap updateSensorMap(SensorMap sensorMap, long sensorid) {
-		SensorMap currentSensorMap = sensorMapRepository.findById(sensorid).orElseThrow(()->new ResourceNotFoundException("sensorMap","sensorid", sensorid));
+	public SensorMap updateSensorMap(SensorMap sensorMap, String sensorid) {
+		SensorMap currentSensorMap = sensorMapRepository.findBySensorid(sensorid).orElseThrow(()->new ResourceNotFoundException("sensorMap","sensorid", sensorid));
 		currentSensorMap.setFloor(sensorMap.getFloor());
 		currentSensorMap.setRoom(sensorMap.getRoom());
 		return sensorMapRepository.save(currentSensorMap);
@@ -52,10 +52,11 @@ public class SensorMapServiceImplement implements SensorMapService{
 
 
 	@Override
-	public void deleteSensorMap(long sensorid) {
+	public void deleteSensorMap(String sensorid) {
 		
-		sensorMapRepository.findById(sensorid).orElseThrow(()-> new ResourceNotFoundException("sensorMap", "sensorid", sensorid));
-		sensorMapRepository.deleteById(sensorid);
+		SensorMap sensorMap = sensorMapRepository.findBySensorid(sensorid).orElseThrow(()-> new ResourceNotFoundException("sensorMap", "sensorid", sensorid));
+		long id = sensorMap.getId();
+		sensorMapRepository.deleteById(id);
 	}
 
 }

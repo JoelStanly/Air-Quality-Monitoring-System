@@ -25,7 +25,7 @@ public class Sensor {
 	private long id;
 	
 	@Column(name = "sensorid",nullable = false)
-	private long sensorid;
+	private String sensorid;
 	
 	@Column(name = "o2",nullable = false)
 	private double o2;
@@ -46,10 +46,10 @@ public class Sensor {
 	private boolean safe;
 	
 	
-	public long getSensorid() {
+	public String getSensorid() {
 		return sensorid;
 	}
-	public void setSensorid(long sensorid) {
+	public void setSensorid(String sensorid) {
 		this.sensorid = sensorid;
 	}
 	public double getO2() {

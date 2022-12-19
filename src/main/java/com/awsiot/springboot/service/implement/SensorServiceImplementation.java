@@ -39,21 +39,20 @@ public class SensorServiceImplementation implements SensorService{
 
 	@Override
 	public Sensor getSensorDataById(long id) {
-		return sensorDataRepository.findById(id).orElseThrow(()-> new ResourceNotFoundException("sensorMap", "id", id));
+		return sensorDataRepository.findById(id).orElseThrow(()-> new ResourceNotFoundException("sensor", "id", id));
 	}
 
 
 
 	@Override
 	public Sensor updateSensorData(Sensor sensor, long id) {
-		Sensor currentSensor = sensorDataRepository.findById(id).orElseThrow(()-> new ResourceNotFoundException("sensorMap", "id", id));
+		Sensor currentSensor = sensorDataRepository.findById(id).orElseThrow(()-> new ResourceNotFoundException("sensor", "id", id));
 		currentSensor.setC(sensor.getC());
 		currentSensor.setCo(sensor.getCo());
 		currentSensor.setCo2(sensor.getCo2());
 		currentSensor.setO2(sensor.getO2());
 		currentSensor.setSo2(sensor.getSo2());
 		currentSensor.setSafe(sensor.isSafe());
-		currentSensor.setSensorid(sensor.getSensorid());
 		return sensorDataRepository.save(currentSensor);
 	}
 

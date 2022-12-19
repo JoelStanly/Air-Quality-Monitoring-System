@@ -1,0 +1,451 @@
+2022-12-19T00:09:33.799+05:30  INFO 14756 --- [RMI TCP Connection(26)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-12-19T00:09:33.806+05:30  INFO 14756 --- [RMI TCP Connection(26)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-12-19T00:09:33.810+05:30  INFO 14756 --- [RMI TCP Connection(26)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-19T00:09:33.811+05:30  INFO 14756 --- [RMI TCP Connection(26)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-19T00:09:33.815+05:30  INFO 14756 --- [RMI TCP Connection(26)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-19T00:09:51.594+05:30  INFO 6084 --- [main] .s.AirQualityMonitoringSystemApplication : Starting AirQualityMonitoringSystemApplication using Java 17.0.5 with PID 6084 (D:\Works\STS\AirQualityMonitoringSystem\target\classes started by MR DRACULA in D:\Works\STS\AirQualityMonitoringSystem)
+2022-12-19T00:09:51.596+05:30  INFO 6084 --- [main] .s.AirQualityMonitoringSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2022-12-19T00:09:51.976+05:30  INFO 6084 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-19T00:09:52.009+05:30  INFO 6084 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 2 JPA repository interfaces.
+2022-12-19T00:09:52.248+05:30  INFO 6084 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-19T00:09:52.254+05:30  INFO 6084 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-19T00:09:52.254+05:30  INFO 6084 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-19T00:09:52.307+05:30  INFO 6084 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-19T00:09:52.307+05:30  INFO 6084 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 585 ms
+2022-12-19T00:09:52.381+05:30  INFO 6084 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-19T00:09:52.406+05:30  INFO 6084 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-19T00:09:52.487+05:30  WARN 6084 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-19T00:09:52.553+05:30  INFO 6084 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-19T00:09:52.728+05:30  INFO 6084 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@41059616
+2022-12-19T00:09:52.729+05:30  INFO 6084 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-19T00:09:52.740+05:30  INFO 6084 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-12-19T00:09:52.740+05:30  WARN 6084 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2022-12-19T00:09:53.153+05:30  INFO 6084 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-19T00:09:53.159+05:30  INFO 6084 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-19T00:09:53.338+05:30  WARN 6084 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-19T00:09:53.502+05:30  INFO 6084 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-19T00:09:53.507+05:30  INFO 6084 --- [main] .s.AirQualityMonitoringSystemApplication : Started AirQualityMonitoringSystemApplication in 2.143 seconds (process running for 2.517)
+2022-12-19T00:10:16.240+05:30  INFO 6084 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-19T00:10:16.240+05:30  INFO 6084 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-19T00:10:16.241+05:30  INFO 6084 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-12-19T00:10:16.297+05:30  INFO 6084 --- [http-nio-8080-exec-2] c.a.s.controller.SensorController        : Sensor ID has been generated
+2022-12-19T00:10:16.299+05:30  INFO 6084 --- [http-nio-8080-exec-2] c.a.s.controller.SensorController        : Sensor Details is being saved with data:
+SensorMap(id=0, sensorid=8df6e8ab-ef4c-431e-9d24-1761eb4c6761, floor=1, room=1)
+2022-12-19T00:10:47.388+05:30  INFO 6084 --- [http-nio-8080-exec-3] c.a.s.controller.SensorController        : Getting all Sensor Details
+2022-12-19T00:11:33.609+05:30  INFO 6084 --- [http-nio-8080-exec-4] c.a.s.controller.SensorController        : Getting the sensor details of the sensor with id: 8df6e8ab-ef4c-431e-9d24-1761eb4c6761
+2022-12-19T00:12:18.323+05:30  INFO 6084 --- [http-nio-8080-exec-5] c.a.s.controller.SensorController        : Updating the sensor details for the sensorid: 8df6e8ab-ef4c-431e-9d24-1761eb4c6761with data:
+SensorMap(id=0, sensorid=null, floor=1, room=2)
+2022-12-19T00:13:37.452+05:30  INFO 6084 --- [RMI TCP Connection(8)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-12-19T00:13:37.468+05:30  INFO 6084 --- [RMI TCP Connection(8)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-12-19T00:13:37.468+05:30  INFO 6084 --- [RMI TCP Connection(8)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-12-19T00:13:37.472+05:30  INFO 6084 --- [RMI TCP Connection(8)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-19T00:13:37.473+05:30  INFO 6084 --- [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-19T00:13:37.477+05:30  INFO 6084 --- [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-19T00:14:17.999+05:30  INFO 18812 --- [main] .s.AirQualityMonitoringSystemApplication : Starting AirQualityMonitoringSystemApplication using Java 17.0.5 with PID 18812 (D:\Works\STS\AirQualityMonitoringSystem\target\classes started by MR DRACULA in D:\Works\STS\AirQualityMonitoringSystem)
+2022-12-19T00:14:18.001+05:30  INFO 18812 --- [main] .s.AirQualityMonitoringSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2022-12-19T00:14:18.378+05:30  INFO 18812 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-19T00:14:18.410+05:30  INFO 18812 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 2 JPA repository interfaces.
+2022-12-19T00:14:18.644+05:30  INFO 18812 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-19T00:14:18.650+05:30  INFO 18812 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-19T00:14:18.650+05:30  INFO 18812 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-19T00:14:18.703+05:30  INFO 18812 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-19T00:14:18.704+05:30  INFO 18812 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 578 ms
+2022-12-19T00:14:18.779+05:30  INFO 18812 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-19T00:14:18.804+05:30  INFO 18812 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-19T00:14:18.887+05:30  WARN 18812 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-19T00:14:18.957+05:30  INFO 18812 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-19T00:14:19.124+05:30  INFO 18812 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e93108a
+2022-12-19T00:14:19.125+05:30  INFO 18812 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-19T00:14:19.135+05:30  INFO 18812 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-12-19T00:14:19.135+05:30  WARN 18812 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2022-12-19T00:14:19.525+05:30  INFO 18812 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-19T00:14:19.531+05:30  INFO 18812 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-19T00:14:19.708+05:30  WARN 18812 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-19T00:14:19.875+05:30  INFO 18812 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-19T00:14:19.880+05:30  INFO 18812 --- [main] .s.AirQualityMonitoringSystemApplication : Started AirQualityMonitoringSystemApplication in 2.108 seconds (process running for 2.484)
+2022-12-19T00:15:57.302+05:30  INFO 18812 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-19T00:15:57.302+05:30  INFO 18812 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-19T00:15:57.303+05:30  INFO 18812 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-12-19T00:15:57.358+05:30  INFO 18812 --- [http-nio-8080-exec-1] c.a.s.controller.SensorController        : Sensor ID has been generated
+2022-12-19T00:15:57.359+05:30  INFO 18812 --- [http-nio-8080-exec-1] c.a.s.controller.SensorController        : Sensor Details is being saved with data:
+SensorMap(id=0, sensorid=276fc22d-0c9f-49ee-b73a-1b56a886cc2a, floor=1, room=1)
+2022-12-19T00:16:08.913+05:30  INFO 18812 --- [http-nio-8080-exec-3] c.a.s.controller.SensorController        : Getting all Sensor Details
+2022-12-19T00:16:17.158+05:30  INFO 18812 --- [http-nio-8080-exec-4] c.a.s.controller.SensorController        : Getting the sensor details of the sensor with id: 276fc22d-0c9f-49ee-b73a-1b56a886cc2a
+2022-12-19T00:16:24.983+05:30  WARN 18812 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2022-12-19T00:16:31.411+05:30  INFO 18812 --- [http-nio-8080-exec-6] c.a.s.controller.SensorController        : Updating the sensor details for the sensorid: 276fc22d-0c9f-49ee-b73a-1b56a886cc2a with data:
+SensorMap(id=0, sensorid=null, floor=1, room=1)
+2022-12-19T00:16:36.532+05:30  INFO 18812 --- [http-nio-8080-exec-7] c.a.s.controller.SensorController        : Updating the sensor details for the sensorid: 276fc22d-0c9f-49ee-b73a-1b56a886cc2a with data:
+SensorMap(id=0, sensorid=null, floor=1, room=2)
+2022-12-19T00:16:47.851+05:30  INFO 18812 --- [http-nio-8080-exec-8] c.a.s.controller.SensorController        : Getting all Sensor Details
+2022-12-19T00:17:09.568+05:30  INFO 18812 --- [http-nio-8080-exec-10] c.a.s.controller.SensorController        : Deleting the Sensor from the map which had an id of 276fc22d-0c9f-49ee-b73a-1b56a886cc2a
+2022-12-19T00:17:16.306+05:30  INFO 18812 --- [http-nio-8080-exec-2] c.a.s.controller.SensorController        : Getting all Sensor Details
+2022-12-19T00:18:12.310+05:30  INFO 18812 --- [http-nio-8080-exec-1] c.a.s.controller.SensorController        : Sensor ID has been generated
+2022-12-19T00:18:12.310+05:30  INFO 18812 --- [http-nio-8080-exec-1] c.a.s.controller.SensorController        : Sensor Details is being saved with data:
+SensorMap(id=0, sensorid=6ad05d39-30ed-4bd0-8d59-5273e83301c3, floor=1, room=2)
+2022-12-19T00:18:30.510+05:30  INFO 18812 --- [http-nio-8080-exec-3] c.a.s.controller.SensorController        : Sensor is being saved with data:
+Sensor(id=0, sensorid=6ad05d39-30ed-4bd0-8d59-5273e83301c3, o2=43.2138, co2=55.6834, so2=23.42, co=11.872, c=33.445, safe=true)
+2022-12-19T00:18:45.521+05:30  INFO 18812 --- [http-nio-8080-exec-4] c.a.s.controller.SensorController        : Getting all sensor data
+2022-12-19T00:19:08.170+05:30  INFO 18812 --- [http-nio-8080-exec-6] c.a.s.controller.SensorController        : Getting sensor data for the sensor id:1
+2022-12-19T00:20:07.190+05:30  INFO 18812 --- [http-nio-8080-exec-7] c.a.s.controller.SensorController        : Updating the sensor data for the id:1 with sensor data:
+Sensor(id=0, sensorid=6ad05d39-30ed-4bd0-8d59-5273e83301c3, o2=3.2138, co2=55.6834, so2=23.42, co=11.872, c=33.445, safe=true)
+2022-12-19T00:20:37.472+05:30  INFO 18812 --- [http-nio-8080-exec-8] c.a.s.controller.SensorController        : Deleting the sensor data for the id:1
+2022-12-19T00:20:44.639+05:30  INFO 18812 --- [http-nio-8080-exec-9] c.a.s.controller.SensorController        : Getting all sensor data
+2022-12-19T00:21:57.324+05:30  INFO 18812 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-12-19T00:21:57.329+05:30  INFO 18812 --- [RMI TCP Connection(10)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-12-19T00:21:57.330+05:30  INFO 18812 --- [RMI TCP Connection(10)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-12-19T00:21:57.333+05:30  INFO 18812 --- [RMI TCP Connection(10)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-19T00:21:57.335+05:30  INFO 18812 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-19T00:21:57.338+05:30  INFO 18812 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-19T00:33:29.618+05:30  INFO 9044 --- [main] .s.AirQualityMonitoringSystemApplication : Starting AirQualityMonitoringSystemApplication using Java 17.0.5 with PID 9044 (D:\Works\STS\AirQualityMonitoringSystem\target\classes started by MR DRACULA in D:\Works\STS\AirQualityMonitoringSystem)
+2022-12-19T00:33:29.620+05:30  INFO 9044 --- [main] .s.AirQualityMonitoringSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2022-12-19T00:33:29.995+05:30  INFO 9044 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-19T00:33:30.027+05:30  INFO 9044 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 2 JPA repository interfaces.
+2022-12-19T00:33:30.260+05:30  INFO 9044 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-19T00:33:30.266+05:30  INFO 9044 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-19T00:33:30.266+05:30  INFO 9044 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-19T00:33:30.318+05:30  INFO 9044 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-19T00:33:30.318+05:30  INFO 9044 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 573 ms
+2022-12-19T00:33:30.390+05:30  INFO 9044 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-19T00:33:30.416+05:30  INFO 9044 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-19T00:33:30.496+05:30  WARN 9044 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-19T00:33:30.561+05:30  INFO 9044 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-19T00:33:30.732+05:30  INFO 9044 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@41059616
+2022-12-19T00:33:30.733+05:30  INFO 9044 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-19T00:33:30.743+05:30  INFO 9044 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-12-19T00:33:30.744+05:30  WARN 9044 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2022-12-19T00:33:31.138+05:30  INFO 9044 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-19T00:33:31.143+05:30  INFO 9044 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-19T00:33:31.319+05:30  WARN 9044 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-19T00:33:31.485+05:30  INFO 9044 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-19T00:33:31.490+05:30  INFO 9044 --- [main] .s.AirQualityMonitoringSystemApplication : Started AirQualityMonitoringSystemApplication in 2.103 seconds (process running for 2.488)
+2022-12-19T00:36:32.782+05:30  INFO 9044 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-19T00:36:32.782+05:30  INFO 9044 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-19T00:36:32.782+05:30  INFO 9044 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-12-19T00:36:32.836+05:30  INFO 9044 --- [http-nio-8080-exec-2] c.a.s.controller.SensorMapController     : Sensor ID has been generated
+2022-12-19T00:36:32.837+05:30  INFO 9044 --- [http-nio-8080-exec-2] c.a.s.controller.SensorMapController     : Sensor Details is being saved with data:
+SensorMap(id=0, sensorid=39ecc5b3-3e23-4e8b-8db1-d5029f308965, floor=1, room=1)
+2022-12-19T00:36:55.208+05:30  INFO 9044 --- [http-nio-8080-exec-3] c.a.s.controller.SensorController        : Getting all sensor data
+2022-12-19T00:37:05.550+05:30  INFO 9044 --- [http-nio-8080-exec-4] c.a.s.controller.SensorController        : Sensor is being saved with data:
+Sensor(id=0, sensorid=39ecc5b3-3e23-4e8b-8db1-d5029f308965, o2=3.2138, co2=55.6834, so2=23.42, co=11.872, c=33.445, safe=true)
+2022-12-19T00:37:44.994+05:30  INFO 9044 --- [RMI TCP Connection(8)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-12-19T00:37:44.999+05:30  INFO 9044 --- [RMI TCP Connection(8)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-12-19T00:37:45.000+05:30  INFO 9044 --- [RMI TCP Connection(8)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-12-19T00:37:45.003+05:30  INFO 9044 --- [RMI TCP Connection(8)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-19T00:37:45.004+05:30  INFO 9044 --- [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-19T00:37:45.008+05:30  INFO 9044 --- [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-19T00:52:56.363+05:30  INFO 9488 --- [main] .s.AirQualityMonitoringSystemApplication : Starting AirQualityMonitoringSystemApplication using Java 17.0.5 with PID 9488 (D:\Works\STS\AirQualityMonitoringSystem\target\classes started by MR DRACULA in D:\Works\STS\AirQualityMonitoringSystem)
+2022-12-19T00:52:56.365+05:30  INFO 9488 --- [main] .s.AirQualityMonitoringSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2022-12-19T00:52:56.763+05:30  INFO 9488 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-19T00:52:56.800+05:30  INFO 9488 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 2 JPA repository interfaces.
+2022-12-19T00:52:57.053+05:30  INFO 9488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-19T00:52:57.059+05:30  INFO 9488 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-19T00:52:57.059+05:30  INFO 9488 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-19T00:52:57.116+05:30  INFO 9488 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-19T00:52:57.116+05:30  INFO 9488 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 621 ms
+2022-12-19T00:52:57.196+05:30  INFO 9488 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-19T00:52:57.222+05:30  INFO 9488 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-19T00:52:57.307+05:30  WARN 9488 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-19T00:52:57.377+05:30  INFO 9488 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-19T00:52:57.559+05:30  INFO 9488 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5909ae90
+2022-12-19T00:52:57.560+05:30  INFO 9488 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-19T00:52:57.570+05:30  INFO 9488 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-12-19T00:52:57.572+05:30  WARN 9488 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2022-12-19T00:52:58.000+05:30  INFO 9488 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-19T00:52:58.005+05:30  INFO 9488 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-19T00:52:58.194+05:30  WARN 9488 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-19T00:52:58.378+05:30  INFO 9488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-19T00:52:58.383+05:30  INFO 9488 --- [main] .s.AirQualityMonitoringSystemApplication : Started AirQualityMonitoringSystemApplication in 2.252 seconds (process running for 2.642)
+2022-12-19T00:53:21.780+05:30  INFO 9488 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-19T00:53:21.780+05:30  INFO 9488 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-19T00:53:21.781+05:30  INFO 9488 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-12-19T00:53:21.839+05:30  INFO 9488 --- [http-nio-8080-exec-1] c.a.s.controller.SensorMapController     : Sensor ID has been generated
+2022-12-19T00:53:21.840+05:30  INFO 9488 --- [http-nio-8080-exec-1] c.a.s.controller.SensorMapController     : Sensor Details is being saved with data:
+SensorMap(id=0, sensorid=6eb4f046-ec50-4574-99b4-3a67d58dc687, floor=1, room=1)
+2022-12-19T00:53:42.716+05:30  INFO 9488 --- [http-nio-8080-exec-2] c.a.s.controller.SensorMapController     : Sensor ID has been generated
+2022-12-19T00:53:42.716+05:30  INFO 9488 --- [http-nio-8080-exec-2] c.a.s.controller.SensorMapController     : Sensor Details is being saved with data:
+SensorMap(id=0, sensorid=4682eee5-0f88-4687-9e9d-fa0a9dd10a8a, floor=1, room=1)
+2022-12-19T00:58:11.278+05:30  INFO 9488 --- [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-12-19T00:58:11.283+05:30  INFO 9488 --- [RMI TCP Connection(7)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-12-19T00:58:11.284+05:30  INFO 9488 --- [RMI TCP Connection(7)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-12-19T00:58:11.287+05:30  INFO 9488 --- [RMI TCP Connection(7)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-19T00:58:11.288+05:30  INFO 9488 --- [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-19T00:58:11.293+05:30  INFO 9488 --- [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-19T01:23:43.177+05:30  INFO 3284 --- [main] .s.AirQualityMonitoringSystemApplication : Starting AirQualityMonitoringSystemApplication using Java 17.0.5 with PID 3284 (D:\Works\STS\AirQualityMonitoringSystem\target\classes started by MR DRACULA in D:\Works\STS\AirQualityMonitoringSystem)
+2022-12-19T01:23:43.179+05:30  INFO 3284 --- [main] .s.AirQualityMonitoringSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2022-12-19T01:23:43.554+05:30  INFO 3284 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-19T01:23:43.582+05:30  INFO 3284 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 2 JPA repository interfaces.
+2022-12-19T01:23:43.820+05:30  INFO 3284 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-19T01:23:43.825+05:30  INFO 3284 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-19T01:23:43.826+05:30  INFO 3284 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-19T01:23:43.878+05:30  INFO 3284 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-19T01:23:43.878+05:30  INFO 3284 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 572 ms
+2022-12-19T01:23:43.951+05:30  INFO 3284 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-19T01:23:43.978+05:30  INFO 3284 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-19T01:23:44.056+05:30  WARN 3284 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-19T01:23:44.122+05:30  INFO 3284 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-19T01:23:44.295+05:30  INFO 3284 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6630dd28
+2022-12-19T01:23:44.297+05:30  INFO 3284 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-19T01:23:44.307+05:30  INFO 3284 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-12-19T01:23:44.307+05:30  WARN 3284 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2022-12-19T01:23:44.708+05:30  INFO 3284 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-19T01:23:44.713+05:30  INFO 3284 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-19T01:23:44.893+05:30  WARN 3284 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-19T01:23:45.059+05:30  INFO 3284 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-19T01:23:45.063+05:30  INFO 3284 --- [main] .s.AirQualityMonitoringSystemApplication : Started AirQualityMonitoringSystemApplication in 2.115 seconds (process running for 2.489)
+2022-12-19T01:24:10.417+05:30  INFO 3284 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-19T01:24:10.417+05:30  INFO 3284 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-19T01:24:10.418+05:30  INFO 3284 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-12-19T01:24:10.472+05:30  INFO 3284 --- [http-nio-8080-exec-1] c.a.s.controller.SensorMapController     : Sensor ID has been generated
+2022-12-19T01:24:10.474+05:30  INFO 3284 --- [http-nio-8080-exec-1] c.a.s.controller.SensorMapController     : Sensor Details is being saved with data:
+SensorMap(id=0, sensorid=58b633f6-0038-41ac-ae21-6622dfd1909d, floor=1, room=1)
+2022-12-19T01:25:42.404+05:30  INFO 3284 --- [http-nio-8080-exec-4] c.a.s.controller.SensorMapController     : Getting all Sensor Details
+2022-12-19T01:25:42.453+05:30  INFO 3284 --- [http-nio-8080-exec-4] c.a.s.controller.SensorMapController     : Updating File Util with Sensor Details
+2022-12-19T01:28:23.276+05:30  INFO 3284 --- [RMI TCP Connection(8)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-12-19T01:28:23.281+05:30  INFO 3284 --- [RMI TCP Connection(8)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-12-19T01:28:23.282+05:30  INFO 3284 --- [RMI TCP Connection(8)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-12-19T01:28:23.285+05:30  INFO 3284 --- [RMI TCP Connection(8)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-19T01:28:23.286+05:30  INFO 3284 --- [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-19T01:28:23.289+05:30  INFO 3284 --- [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-19T01:28:35.120+05:30  INFO 11292 --- [main] .s.AirQualityMonitoringSystemApplication : Starting AirQualityMonitoringSystemApplication using Java 17.0.5 with PID 11292 (D:\Works\STS\AirQualityMonitoringSystem\target\classes started by MR DRACULA in D:\Works\STS\AirQualityMonitoringSystem)
+2022-12-19T01:28:35.122+05:30  INFO 11292 --- [main] .s.AirQualityMonitoringSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2022-12-19T01:28:35.500+05:30  INFO 11292 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-19T01:28:35.532+05:30  INFO 11292 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 2 JPA repository interfaces.
+2022-12-19T01:28:35.772+05:30  INFO 11292 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-19T01:28:35.777+05:30  INFO 11292 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-19T01:28:35.778+05:30  INFO 11292 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-19T01:28:35.832+05:30  INFO 11292 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-19T01:28:35.833+05:30  INFO 11292 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 585 ms
+2022-12-19T01:28:35.906+05:30  INFO 11292 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-19T01:28:35.931+05:30  INFO 11292 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-19T01:28:36.012+05:30  WARN 11292 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-19T01:28:36.078+05:30  INFO 11292 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-19T01:28:36.250+05:30  INFO 11292 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e93108a
+2022-12-19T01:28:36.251+05:30  INFO 11292 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-19T01:28:36.261+05:30  INFO 11292 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-12-19T01:28:36.261+05:30  WARN 11292 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2022-12-19T01:28:36.666+05:30  INFO 11292 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-19T01:28:36.672+05:30  INFO 11292 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-19T01:28:36.853+05:30  WARN 11292 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-19T01:28:37.018+05:30  INFO 11292 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-19T01:28:37.022+05:30  INFO 11292 --- [main] .s.AirQualityMonitoringSystemApplication : Started AirQualityMonitoringSystemApplication in 2.13 seconds (process running for 2.506)
+2022-12-19T01:28:43.866+05:30  INFO 11292 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-19T01:28:43.866+05:30  INFO 11292 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-19T01:28:43.866+05:30  INFO 11292 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-12-19T01:28:43.882+05:30  INFO 11292 --- [http-nio-8080-exec-2] c.a.s.controller.SensorMapController     : Getting all Sensor Details
+2022-12-19T01:28:43.952+05:30  INFO 11292 --- [http-nio-8080-exec-2] c.a.s.controller.SensorMapController     : Updating File Util with Sensor Details
+2022-12-19T01:30:03.114+05:30  INFO 11292 --- [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-12-19T01:30:03.118+05:30  INFO 11292 --- [RMI TCP Connection(5)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-12-19T01:30:03.119+05:30  INFO 11292 --- [RMI TCP Connection(5)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-12-19T01:30:03.122+05:30  INFO 11292 --- [RMI TCP Connection(5)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-19T01:30:03.123+05:30  INFO 11292 --- [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-19T01:30:03.128+05:30  INFO 11292 --- [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-19T01:30:19.424+05:30  INFO 18764 --- [main] .s.AirQualityMonitoringSystemApplication : Starting AirQualityMonitoringSystemApplication using Java 17.0.5 with PID 18764 (D:\Works\STS\AirQualityMonitoringSystem\target\classes started by MR DRACULA in D:\Works\STS\AirQualityMonitoringSystem)
+2022-12-19T01:30:19.427+05:30  INFO 18764 --- [main] .s.AirQualityMonitoringSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2022-12-19T01:30:19.800+05:30  INFO 18764 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-19T01:30:19.829+05:30  INFO 18764 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 2 JPA repository interfaces.
+2022-12-19T01:30:20.066+05:30  INFO 18764 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-19T01:30:20.072+05:30  INFO 18764 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-19T01:30:20.072+05:30  INFO 18764 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-19T01:30:20.124+05:30  INFO 18764 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-19T01:30:20.126+05:30  INFO 18764 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 572 ms
+2022-12-19T01:30:20.202+05:30  INFO 18764 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-19T01:30:20.230+05:30  INFO 18764 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-19T01:30:20.313+05:30  WARN 18764 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-19T01:30:20.384+05:30  INFO 18764 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-19T01:30:20.553+05:30  INFO 18764 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@41059616
+2022-12-19T01:30:20.555+05:30  INFO 18764 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-19T01:30:20.564+05:30  INFO 18764 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-12-19T01:30:20.564+05:30  WARN 18764 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2022-12-19T01:30:20.966+05:30  INFO 18764 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-19T01:30:20.971+05:30  INFO 18764 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-19T01:30:21.151+05:30  WARN 18764 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-19T01:30:21.322+05:30  INFO 18764 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-19T01:30:21.326+05:30  INFO 18764 --- [main] .s.AirQualityMonitoringSystemApplication : Started AirQualityMonitoringSystemApplication in 2.129 seconds (process running for 2.506)
+2022-12-19T01:30:26.203+05:30  INFO 18764 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-19T01:30:26.203+05:30  INFO 18764 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-19T01:30:26.204+05:30  INFO 18764 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-12-19T01:30:26.223+05:30  INFO 18764 --- [http-nio-8080-exec-2] c.a.s.controller.SensorMapController     : Getting all Sensor Details
+2022-12-19T01:32:05.381+05:30  INFO 18764 --- [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-12-19T01:32:05.386+05:30  INFO 18764 --- [RMI TCP Connection(5)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-12-19T01:32:05.386+05:30  INFO 18764 --- [RMI TCP Connection(5)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-12-19T01:32:05.389+05:30  INFO 18764 --- [RMI TCP Connection(5)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-19T01:32:05.391+05:30  INFO 18764 --- [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-19T01:32:05.394+05:30  INFO 18764 --- [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-19T01:32:14.397+05:30  INFO 836 --- [main] .s.AirQualityMonitoringSystemApplication : Starting AirQualityMonitoringSystemApplication using Java 17.0.5 with PID 836 (D:\Works\STS\AirQualityMonitoringSystem\target\classes started by MR DRACULA in D:\Works\STS\AirQualityMonitoringSystem)
+2022-12-19T01:32:14.398+05:30  INFO 836 --- [main] .s.AirQualityMonitoringSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2022-12-19T01:32:14.779+05:30  INFO 836 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-19T01:32:14.810+05:30  INFO 836 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 2 JPA repository interfaces.
+2022-12-19T01:32:15.053+05:30  INFO 836 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-19T01:32:15.059+05:30  INFO 836 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-19T01:32:15.059+05:30  INFO 836 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-19T01:32:15.112+05:30  INFO 836 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-19T01:32:15.112+05:30  INFO 836 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 588 ms
+2022-12-19T01:32:15.186+05:30  INFO 836 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-19T01:32:15.211+05:30  INFO 836 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-19T01:32:15.303+05:30  WARN 836 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-19T01:32:15.375+05:30  INFO 836 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-19T01:32:15.551+05:30  INFO 836 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6630dd28
+2022-12-19T01:32:15.553+05:30  INFO 836 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-19T01:32:15.564+05:30  INFO 836 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-12-19T01:32:15.565+05:30  WARN 836 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2022-12-19T01:32:15.975+05:30  INFO 836 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-19T01:32:15.979+05:30  INFO 836 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-19T01:32:16.163+05:30  WARN 836 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-19T01:32:16.347+05:30  INFO 836 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-19T01:32:16.351+05:30  INFO 836 --- [main] .s.AirQualityMonitoringSystemApplication : Started AirQualityMonitoringSystemApplication in 2.193 seconds (process running for 2.586)
+2022-12-19T01:32:17.934+05:30  INFO 836 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-19T01:32:17.934+05:30  INFO 836 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-19T01:32:17.935+05:30  INFO 836 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-12-19T01:32:17.950+05:30  INFO 836 --- [http-nio-8080-exec-2] c.a.s.controller.SensorMapController     : Getting all Sensor Details
+2022-12-19T01:35:59.186+05:30  INFO 836 --- [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-12-19T01:35:59.191+05:30  INFO 836 --- [RMI TCP Connection(6)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-12-19T01:35:59.192+05:30  INFO 836 --- [RMI TCP Connection(6)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-12-19T01:35:59.195+05:30  INFO 836 --- [RMI TCP Connection(6)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-19T01:35:59.197+05:30  INFO 836 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-19T01:35:59.201+05:30  INFO 836 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-19T01:36:04.183+05:30  INFO 15600 --- [main] .s.AirQualityMonitoringSystemApplication : Starting AirQualityMonitoringSystemApplication using Java 17.0.5 with PID 15600 (D:\Works\STS\AirQualityMonitoringSystem\target\classes started by MR DRACULA in D:\Works\STS\AirQualityMonitoringSystem)
+2022-12-19T01:36:04.185+05:30  INFO 15600 --- [main] .s.AirQualityMonitoringSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2022-12-19T01:36:04.564+05:30  INFO 15600 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-19T01:36:04.595+05:30  INFO 15600 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 2 JPA repository interfaces.
+2022-12-19T01:36:04.834+05:30  INFO 15600 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-19T01:36:04.839+05:30  INFO 15600 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-19T01:36:04.839+05:30  INFO 15600 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-19T01:36:04.893+05:30  INFO 15600 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-19T01:36:04.893+05:30  INFO 15600 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 581 ms
+2022-12-19T01:36:04.965+05:30  INFO 15600 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-19T01:36:04.991+05:30  INFO 15600 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-19T01:36:05.072+05:30  WARN 15600 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-19T01:36:05.141+05:30  INFO 15600 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-19T01:36:05.311+05:30  INFO 15600 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e93108a
+2022-12-19T01:36:05.312+05:30  INFO 15600 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-19T01:36:05.322+05:30  INFO 15600 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-12-19T01:36:05.322+05:30  WARN 15600 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2022-12-19T01:36:05.724+05:30  INFO 15600 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-19T01:36:05.729+05:30  INFO 15600 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-19T01:36:05.912+05:30  WARN 15600 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-19T01:36:06.083+05:30  INFO 15600 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-19T01:36:06.087+05:30  INFO 15600 --- [main] .s.AirQualityMonitoringSystemApplication : Started AirQualityMonitoringSystemApplication in 2.132 seconds (process running for 2.515)
+2022-12-19T01:36:12.814+05:30  INFO 15600 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-19T01:36:12.814+05:30  INFO 15600 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-19T01:36:12.815+05:30  INFO 15600 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-12-19T01:36:12.830+05:30  INFO 15600 --- [http-nio-8080-exec-2] c.a.s.controller.SensorMapController     : Getting all Sensor Details
+2022-12-19T01:38:53.395+05:30  INFO 15600 --- [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-12-19T01:38:53.400+05:30  INFO 15600 --- [RMI TCP Connection(6)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-12-19T01:38:53.401+05:30  INFO 15600 --- [RMI TCP Connection(6)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-12-19T01:38:53.405+05:30  INFO 15600 --- [RMI TCP Connection(6)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-19T01:38:53.406+05:30  INFO 15600 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-19T01:38:53.410+05:30  INFO 15600 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-19T01:39:04.161+05:30  INFO 14160 --- [main] .s.AirQualityMonitoringSystemApplication : Starting AirQualityMonitoringSystemApplication using Java 17.0.5 with PID 14160 (D:\Works\STS\AirQualityMonitoringSystem\target\classes started by MR DRACULA in D:\Works\STS\AirQualityMonitoringSystem)
+2022-12-19T01:39:04.163+05:30  INFO 14160 --- [main] .s.AirQualityMonitoringSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2022-12-19T01:39:04.553+05:30  INFO 14160 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-19T01:39:04.585+05:30  INFO 14160 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 2 JPA repository interfaces.
+2022-12-19T01:39:04.830+05:30  INFO 14160 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-19T01:39:04.836+05:30  INFO 14160 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-19T01:39:04.836+05:30  INFO 14160 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-19T01:39:04.888+05:30  INFO 14160 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-19T01:39:04.888+05:30  INFO 14160 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 598 ms
+2022-12-19T01:39:04.963+05:30  INFO 14160 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-19T01:39:04.988+05:30  INFO 14160 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-19T01:39:05.065+05:30  WARN 14160 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-19T01:39:05.133+05:30  INFO 14160 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-19T01:39:05.301+05:30  INFO 14160 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5d3b6585
+2022-12-19T01:39:05.303+05:30  INFO 14160 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-19T01:39:05.313+05:30  INFO 14160 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-12-19T01:39:05.313+05:30  WARN 14160 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2022-12-19T01:39:05.710+05:30  INFO 14160 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-19T01:39:05.715+05:30  INFO 14160 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-19T01:39:05.890+05:30  WARN 14160 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-19T01:39:06.058+05:30  INFO 14160 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-19T01:39:06.062+05:30  INFO 14160 --- [main] .s.AirQualityMonitoringSystemApplication : Started AirQualityMonitoringSystemApplication in 2.145 seconds (process running for 2.52)
+2022-12-19T01:39:06.454+05:30  INFO 14160 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-19T01:39:06.455+05:30  INFO 14160 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-19T01:39:06.455+05:30  INFO 14160 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-12-19T01:39:06.471+05:30  INFO 14160 --- [http-nio-8080-exec-1] c.a.s.controller.SensorMapController     : Getting all Sensor Details
+2022-12-19T02:23:06.570+05:30  INFO 14160 --- [RMI TCP Connection(46)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-12-19T02:23:06.576+05:30  INFO 14160 --- [RMI TCP Connection(46)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-12-19T02:23:06.576+05:30  INFO 14160 --- [RMI TCP Connection(46)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-12-19T02:23:06.580+05:30  INFO 14160 --- [RMI TCP Connection(46)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-19T02:23:06.581+05:30  INFO 14160 --- [RMI TCP Connection(46)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-19T02:23:06.585+05:30  INFO 14160 --- [RMI TCP Connection(46)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-19T11:18:30.637+05:30  INFO 18128 --- [main] .s.AirQualityMonitoringSystemApplication : Starting AirQualityMonitoringSystemApplication using Java 17.0.5 with PID 18128 (D:\Works\STS\AirQualityMonitoringSystem\target\classes started by MR DRACULA in D:\Works\STS\AirQualityMonitoringSystem)
+2022-12-19T11:18:30.639+05:30  INFO 18128 --- [main] .s.AirQualityMonitoringSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2022-12-19T11:18:31.053+05:30  INFO 18128 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-19T11:18:31.089+05:30  INFO 18128 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 2 JPA repository interfaces.
+2022-12-19T11:18:31.341+05:30  INFO 18128 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-19T11:18:31.347+05:30  INFO 18128 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-19T11:18:31.347+05:30  INFO 18128 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-19T11:18:31.405+05:30  INFO 18128 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-19T11:18:31.405+05:30  INFO 18128 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 625 ms
+2022-12-19T11:18:31.484+05:30  INFO 18128 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-19T11:18:31.514+05:30  INFO 18128 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-19T11:18:31.604+05:30  WARN 18128 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-19T11:18:31.671+05:30  INFO 18128 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-19T11:18:31.853+05:30  INFO 18128 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e93108a
+2022-12-19T11:18:31.854+05:30  INFO 18128 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-19T11:18:31.865+05:30  INFO 18128 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-12-19T11:18:31.865+05:30  WARN 18128 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2022-12-19T11:18:32.298+05:30  INFO 18128 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-19T11:18:32.304+05:30  INFO 18128 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-19T11:18:32.495+05:30  WARN 18128 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-19T11:18:32.678+05:30  INFO 18128 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-19T11:18:32.683+05:30  INFO 18128 --- [main] .s.AirQualityMonitoringSystemApplication : Started AirQualityMonitoringSystemApplication in 2.295 seconds (process running for 2.715)
+2022-12-19T11:21:35.585+05:30  INFO 18128 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-19T11:21:35.586+05:30  INFO 18128 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-19T11:21:35.586+05:30  INFO 18128 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-12-19T11:21:35.647+05:30  INFO 18128 --- [http-nio-8080-exec-1] c.a.s.controller.SensorMapController     : Sensor ID has been generated
+2022-12-19T11:21:35.649+05:30  INFO 18128 --- [http-nio-8080-exec-1] c.a.s.controller.SensorMapController     : Sensor Details is being saved with data:
+SensorMap(id=0, sensorid=e4e34e9c-2eef-462a-b408-91619c497ba9, floor=1, room=2)
+2022-12-19T11:49:52.857+05:30  INFO 18128 --- [RMI TCP Connection(36)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-12-19T11:49:52.863+05:30  INFO 18128 --- [RMI TCP Connection(36)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-12-19T11:49:52.864+05:30  INFO 18128 --- [RMI TCP Connection(36)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-12-19T11:49:52.867+05:30  INFO 18128 --- [RMI TCP Connection(36)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-19T11:49:52.868+05:30  INFO 18128 --- [RMI TCP Connection(36)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-19T11:49:52.871+05:30  INFO 18128 --- [RMI TCP Connection(36)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-19T11:50:27.655+05:30  INFO 11588 --- [main] .s.AirQualityMonitoringSystemApplication : Starting AirQualityMonitoringSystemApplication using Java 17.0.5 with PID 11588 (D:\Works\STS\AirQualityMonitoringSystem\target\classes started by MR DRACULA in D:\Works\STS\AirQualityMonitoringSystem)
+2022-12-19T11:50:27.656+05:30  INFO 11588 --- [main] .s.AirQualityMonitoringSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2022-12-19T11:50:28.062+05:30  INFO 11588 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-19T11:50:28.098+05:30  INFO 11588 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 2 JPA repository interfaces.
+2022-12-19T11:50:28.355+05:30  INFO 11588 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-19T11:50:28.360+05:30  INFO 11588 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-19T11:50:28.361+05:30  INFO 11588 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-19T11:50:28.417+05:30  INFO 11588 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-19T11:50:28.417+05:30  INFO 11588 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 626 ms
+2022-12-19T11:50:28.499+05:30  INFO 11588 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-19T11:50:28.527+05:30  INFO 11588 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-19T11:50:28.617+05:30  WARN 11588 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-19T11:50:28.686+05:30  INFO 11588 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-19T11:50:28.874+05:30  INFO 11588 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@41059616
+2022-12-19T11:50:28.875+05:30  INFO 11588 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-19T11:50:28.885+05:30  INFO 11588 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-12-19T11:50:28.886+05:30  WARN 11588 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2022-12-19T11:50:29.342+05:30  INFO 11588 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-19T11:50:29.348+05:30  INFO 11588 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-19T11:50:29.535+05:30  WARN 11588 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-19T11:50:29.715+05:30  INFO 11588 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-19T11:50:29.720+05:30  INFO 11588 --- [main] .s.AirQualityMonitoringSystemApplication : Started AirQualityMonitoringSystemApplication in 2.313 seconds (process running for 2.715)
+2022-12-19T11:50:51.211+05:30  INFO 11588 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-19T11:50:51.212+05:30  INFO 11588 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-19T11:50:51.212+05:30  INFO 11588 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-12-19T11:50:51.228+05:30  INFO 11588 --- [http-nio-8080-exec-2] c.a.s.controller.SensorMapController     : Getting all Sensor Details
+2022-12-19T11:51:21.587+05:30  INFO 11588 --- [http-nio-8080-exec-3] c.a.s.controller.SensorMapController     : Getting the sensor details of the sensor with id: 3
+2022-12-19T11:51:28.149+05:30  INFO 11588 --- [http-nio-8080-exec-4] c.a.s.controller.SensorMapController     : Getting the sensor details of the sensor with id: e4e34e9c-2eef-462a-b408-91619c497ba9
+2022-12-19T11:51:58.397+05:30  INFO 11588 --- [http-nio-8080-exec-5] c.a.s.controller.SensorMapController     : Updating the sensor details for the sensorid: e4e34e9c-2eef-462a-b408-91619c497ba9 with data:
+SensorMap(id=0, sensorid=null, floor=2, room=2)
+2022-12-19T11:52:18.975+05:30  INFO 11588 --- [http-nio-8080-exec-6] c.a.s.controller.SensorMapController     : Deleting the Sensor from the map which had an id of e4e34e9c-2eef-462a-b408-91619c497ba9
+2022-12-19T11:52:39.357+05:30  INFO 11588 --- [http-nio-8080-exec-7] c.a.s.controller.SensorMapController     : Getting all Sensor Details
+2022-12-19T11:56:25.744+05:30  INFO 11588 --- [http-nio-8080-exec-9] c.a.s.controller.SensorController        : Sensor is being saved with data:
+Sensor(id=0, sensorid=58b633f6-0038-41ac-ae21-6622dfd1909d, o2=3.2138, co2=55.6834, so2=23.42, co=11.872, c=33.445, safe=true)
+2022-12-19T11:56:44.884+05:30  INFO 11588 --- [http-nio-8080-exec-1] c.a.s.controller.SensorController        : Sensor is being saved with data:
+Sensor(id=0, sensorid=4682eee5-0f88-4687-9e9d-fa0a9dd10a8a, o2=3.2138, co2=55.6834, so2=23.42, co=11.872, c=33.445, safe=true)
+2022-12-19T11:58:33.020+05:30  INFO 11588 --- [http-nio-8080-exec-4] c.a.s.controller.SensorController        : Getting all sensor data
+2022-12-19T11:58:51.553+05:30  INFO 11588 --- [http-nio-8080-exec-5] c.a.s.controller.SensorController        : Getting sensor data for the sensor id:1
+2022-12-19T11:59:31.223+05:30  WARN 11588 --- [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' is not supported]
+2022-12-19T11:59:40.606+05:30  INFO 11588 --- [http-nio-8080-exec-7] c.a.s.controller.SensorController        : Updating the sensor data for the id:1 with sensor data:
+Sensor(id=0, sensorid=4682eee5-0f88-4687-9e9d-fa0a9dd10a8a, o2=3.2138, co2=55.6834, so2=23.42, co=1.872, c=33.445, safe=true)
+2022-12-19T11:59:58.827+05:30  INFO 11588 --- [http-nio-8080-exec-8] c.a.s.controller.SensorController        : Deleting the sensor data for the id:1
+2022-12-19T12:18:43.355+05:30  INFO 11588 --- [RMI TCP Connection(32)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-12-19T12:18:43.361+05:30  INFO 11588 --- [RMI TCP Connection(32)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-12-19T12:18:43.361+05:30  INFO 11588 --- [RMI TCP Connection(32)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-12-19T12:18:43.364+05:30  INFO 11588 --- [RMI TCP Connection(32)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-19T12:18:43.366+05:30  INFO 11588 --- [RMI TCP Connection(32)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-19T12:18:43.370+05:30  INFO 11588 --- [RMI TCP Connection(32)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

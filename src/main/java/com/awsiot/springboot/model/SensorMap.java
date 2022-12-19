@@ -20,13 +20,29 @@ import lombok.ToString;
 public class SensorMap {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private long sensorid;
+	private long id;
+	
+	@Column(name = "sensorid")
+	private String sensorid;
 	
 	@Column(name = "floor")
 	private int floor;
 	
 	@Column(name = "room")
 	private int room;
+	
+
+	public long getId() {
+		return id;
+	}
+
+	public String getSensorid() {
+		return sensorid;
+	}
+
+	public void setSensorid(String sensorid) {
+		this.sensorid = sensorid;
+	}
 
 	public int getFloor() {
 		return floor;

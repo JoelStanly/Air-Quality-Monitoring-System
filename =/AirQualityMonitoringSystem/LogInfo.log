@@ -1,0 +1,27 @@
+2022-12-18T04:08:50.123+05:30  INFO 15848 --- [main] .s.AirQualityMonitoringSystemApplication : Starting AirQualityMonitoringSystemApplication using Java 17.0.5 with PID 15848 (D:\Works\STS\AirQualityMonitoringSystem\target\classes started by MR DRACULA in D:\Works\STS\AirQualityMonitoringSystem)
+2022-12-18T04:08:50.125+05:30  INFO 15848 --- [main] .s.AirQualityMonitoringSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2022-12-18T04:08:50.578+05:30  INFO 15848 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-18T04:08:50.614+05:30  INFO 15848 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 2 JPA repository interfaces.
+2022-12-18T04:08:50.905+05:30  INFO 15848 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-18T04:08:50.912+05:30  INFO 15848 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-18T04:08:50.912+05:30  INFO 15848 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-18T04:08:50.973+05:30  INFO 15848 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-18T04:08:50.974+05:30  INFO 15848 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 710 ms
+2022-12-18T04:08:51.070+05:30  INFO 15848 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-18T04:08:51.105+05:30  INFO 15848 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-18T04:08:51.217+05:30  WARN 15848 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-18T04:08:51.311+05:30  INFO 15848 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-18T04:08:51.517+05:30  INFO 15848 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6be50b35
+2022-12-18T04:08:51.518+05:30  INFO 15848 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-18T04:08:51.530+05:30  INFO 15848 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-12-18T04:08:51.530+05:30  WARN 15848 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2022-12-18T04:08:52.032+05:30  INFO 15848 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-18T04:08:52.037+05:30  INFO 15848 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-18T04:08:52.209+05:30  WARN 15848 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-18T04:08:52.395+05:30  INFO 15848 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-18T04:08:52.400+05:30  INFO 15848 --- [main] .s.AirQualityMonitoringSystemApplication : Started AirQualityMonitoringSystemApplication in 2.526 seconds (process running for 3.164)
+2022-12-18T04:08:59.338+05:30  INFO 15848 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-18T04:08:59.338+05:30  INFO 15848 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-18T04:08:59.339+05:30  INFO 15848 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-12-18T04:08:59.409+05:30  INFO 15848 --- [http-nio-8080-exec-1] c.a.s.controller.SensorController        : Sensor is being saved with data:
+Sensor(id=0, sensorid=5, o2=3.2138, co2=5.6834, so2=3.42, co=1.872, c=3.445, safe=true)

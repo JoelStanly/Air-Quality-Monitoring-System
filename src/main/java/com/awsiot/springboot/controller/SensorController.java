@@ -2,6 +2,7 @@ package com.awsiot.springboot.controller;
 
 import java.util.List;
 
+import org.slf4j.Logger;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -15,11 +16,14 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.awsiot.springboot.model.Sensor;
 import com.awsiot.springboot.service.SensorService;
+import com.awsiot.springboot.util.FileUtil;
 
 @RestController
 @RequestMapping("/api/sensor")
 public class SensorController {
-
+	
+	Logger logger = FileUtil.getLogger(SensorController.class);
+	
 	private SensorService sensorservice;
 
 	public SensorController(SensorService sensorservice) {
@@ -30,28 +34,32 @@ public class SensorController {
 	// Posting The data stream
 	@PostMapping("post")
 	public ResponseEntity<Sensor> saveSensor(@RequestBody Sensor sensor){
+		logger.info("Sensor is being saved with data:\n" + sensor);
 		return new ResponseEntity<Sensor>(sensorservice.saveSensor(sensor),HttpStatus.CREATED);
 	}
 	
 	@GetMapping("/all")
 	public List<Sensor> getSensorAllControl(){
+		logger.info("Getting all sensor data");
 		return sensorservice.getSensorDataAll();
 	}
 	
-	@GetMapping("/find/{sensorid}")
-	public Sensor getSensorUsingIdControl(@PathVariable("sensorid") long sensorid) {
-		return sensorservice.getSensorDataById(sensorid);
+	@GetMapping("/find/{id}")
+	public Sensor getSensorUsingIdControl(@PathVariable("id") long id) {
+		logger.info("Getting sensor data for the sensor id:" + id);
+		return sensorservice.getSensorDataById(id);
 	}
 	
-	@PutMapping("/update/{sensorid}")
-	public Sensor updateSensorControl(@RequestBody Sensor sensor,@PathVariable("sensorid") long sensorid) {
-		return sensorservice.updateSensorData(sensor, sensorid);
+	@PutMapping("/update/{id}")
+	public Sensor updateSensorControl(@RequestBody Sensor sensor,@PathVariable("id") long id) {
+		logger.info("Updating the sensor data for the id:" + id +" with sensor data:\n"+sensor);
+		return sensorservice.updateSensorData(sensor, id);
 	}
 	
-	@DeleteMapping("/delete/{sensorid}")
-	public void deleteSensorControl(@PathVariable long sensorid) {
-		sensorservice.deleteSensorData(sensorid);
-		System.out.println("Deleted the Sensor data which had an id of " + sensorid);
+	@DeleteMapping("/delete/{id}")
+	public void deleteSensorControl(@PathVariable long id) {
+		logger.info("Deleting the sensor data for the id:" + id);
+		sensorservice.deleteSensorData(id);
 	}
 	
 }

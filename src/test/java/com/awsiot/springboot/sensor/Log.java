@@ -34,10 +34,5 @@ public class Log {
 				.statusCode(SiteCheck.SUCCESSCODE);
 	}
 
-	@Test
-	public void logValidationFail() {
-		given().baseUri(SiteCheck.BASEURI+SiteCheck.SENSOR).when().get(SiteCheck.DATASTREAM).then().log().ifValidationFails()
-				.statusCode(SiteCheck.NOTFOUND);
-	}
 
 }

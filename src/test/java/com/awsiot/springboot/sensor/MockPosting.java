@@ -9,6 +9,8 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import org.testng.annotations.Test;
 
+import com.awsiot.springboot.util.FileUtil;
+
 import io.restassured.http.ContentType;
 
 public class MockPosting {
@@ -22,16 +24,18 @@ public class MockPosting {
 	  boolean breakCode = false;
 	  while(!breakCode) {
 		  try {
-				data.put("c", Math.random()*(100-30+1)+30);
-				data.put("co", Math.random()*(100-30+1)+30);
-				data.put("co2", Math.random()*(100-30+1)+30);
-				data.put("o2", Math.random()*(100-30+1)+30);
-				data.put("so2", Math.random()*(100-30+1)+30);
+			  	System.out.println("Enter the Sensor ID");
+			  	data.put("sensorid", scan.next());
+				data.put("c", FileUtil.randomLongValue());
+				data.put("co",FileUtil.randomLongValue());
+				data.put("co2", FileUtil.randomLongValue());
+				data.put("o2", FileUtil.randomLongValue());
+				data.put("so2", FileUtil.randomLongValue());
 				data.put("safe", rd.nextBoolean());
-				data.put("co2", Math.random()*(100-30+1)+30);
-				data.put("n", Math.random()*(100-30+1)+30);
-				data.put("co", Math.random()*(100-30+1)+30);
-				data.put("sensorid", (int)Math.random()*(10-1+1)+1);
+				data.put("co2", FileUtil.randomLongValue());
+				data.put("n", FileUtil.randomLongValue());
+				data.put("co", FileUtil.randomLongValue());
+				
 			} catch (JSONException e) {
 				e.printStackTrace();
 			}
